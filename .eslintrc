@@ -1,0 +1,4 @@
+{
+  "extends": "@sealsystems/eslint-config-es"
+}
+

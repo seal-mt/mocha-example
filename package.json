@@ -1,0 +1,27 @@
+{
+  "name": "test-example",
+  "version": "0.0.0",
+  "description": "Simple example http server for serving static files",
+  "license": "MIT",
+  "scripts": {
+    "bot": "bot",
+    "test": "bot test-units",
+    "coverage": "istanbul cover _mocha -- --recursive --ui tdd ",
+    "report": "npm run coverage && if [[ $OSTYPE == darwin* ]]; then open=open; else open=xdg-open; fi && $open coverage/lcov-report/index.html",
+    "generate-cert": "bot generate-cert",
+    "show-cert": "bot show-cert"
+  },
+  "main": "bin/app.js",
+  "dependencies": {
+    "express": "4.16.3",
+    "seal-log": "1.2.0"
+  },
+  "devDependencies": {
+    "@sealsystems/eslint-config-es": "1.1.1",
+    "assertthat": "1.0.0",
+    "proxyquire": "2.0.1",
+    "roboter": "0.16.0",
+    "roboter-server": "0.16.0",
+    "supertest": "3.1.0"
+  }
+}
