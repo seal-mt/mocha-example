@@ -1,2 +1,3 @@
 # test-example
-Simple example http server for serving static files
+
+Simple REST server for showing unit tests
