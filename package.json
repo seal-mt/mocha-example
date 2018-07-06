@@ -16,11 +16,13 @@
     "body-parser": "1.18.3",
     "express": "4.16.3",
     "mkdirp": "0.5.1",
+    "seal-failure": "0.0.1",
     "seal-log": "1.2.0"
   },
   "devDependencies": {
     "@sealsystems/eslint-config-es": "1.1.1",
     "assertthat": "1.0.0",
+    "mockery": "2.1.0",
     "proxyquire": "2.0.1",
     "roboter": "0.16.0",
     "roboter-server": "0.16.0",

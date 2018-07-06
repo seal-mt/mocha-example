@@ -13,5 +13,5 @@ startRestApi(options, (errStartApi) => {
   if (errStartApi) {
     return log.error('Error starting service.', { err: errStartApi });
   }
-  log.info('Service successfully started.');
+  log.info('Service successfully started.', options);
 });
